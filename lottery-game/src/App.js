@@ -1,12 +1,13 @@
-import logo from './logo.svg';
 import './App.css';
-
+import Lottery from './Lottery';
+// import Ticket from './Ticket';
 function App() {
+
   return (
-    <div className="App">
-      Hello React
-    </div>
-  );
+    <>
+     <Lottery n={3} winningSum={15}/>
+    </>
+  );   
 }
 
 export default App;
